@@ -1,0 +1,9 @@
+---
+version: '2'
+services:
+  hokusai-integration-test:
+    extends:
+      file: build.yml
+      service: hokusai-integration-test
+    ports:
+      - 80:80

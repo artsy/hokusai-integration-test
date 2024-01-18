@@ -1,0 +1,6 @@
+---
+version: '2'
+services:
+  hokusai-integration-test:
+    build:
+      context: ../
